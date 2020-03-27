@@ -1,3 +1,13 @@
+body {
+  background-color: rgb(3, 3, 3);
+  background-image: url("../img/alley.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+
+}
 .container {
   margin:auto;
   width: 60vw;
@@ -34,4 +44,12 @@
 
 .btn {
   display: inline;
+}
+
+div {
+  opacity: 99%;
+}
+
+#intro {
+  font-size: 17px;
 }
