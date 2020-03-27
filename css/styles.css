@@ -31,3 +31,7 @@
 .js {
   background-color: green;
 }
+
+.btn {
+  display: inline;
+}
