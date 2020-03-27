@@ -16,3 +16,18 @@
   text-align: right;
 }
 
+.c {
+  background-color: blue;
+}
+
+.python {
+  background-color: yellow;
+}
+
+.ruby {
+  background-color: red;
+}
+
+.js {
+  background-color: green;
+}
