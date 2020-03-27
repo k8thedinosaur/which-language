@@ -125,13 +125,19 @@ $(document).ready(function() {
     
     // set vars for testing
     var python = 5;
-    var c = 3;
-    var js = 2;
-    var ruby = 1;
+    var c = 7;
+    var js = 453;
+    var ruby = 545231;
 
     if (python > c && python > ruby && python > js) {
       $("#result-python").show();
-    } 
+    } else if (c > python && c> ruby && c > js) {
+      $("#result-c").show();
+    } else if (ruby > python && ruby > c && ruby > js) {
+      $("#result-ruby").show();
+    } else if (js > python && js > c && js > ruby) {
+      $("#result-js").show();
+    }
 
        
 
