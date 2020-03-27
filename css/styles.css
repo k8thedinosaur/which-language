@@ -46,10 +46,14 @@ body {
   display: inline;
 }
 
-div {
+.panel-body {
   opacity: 99%;
 }
 
 #intro {
   font-size: 17px;
+}
+
+.bold {
+  font-weight: bold;
 }
