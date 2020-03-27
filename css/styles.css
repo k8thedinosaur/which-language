@@ -3,7 +3,7 @@
   width: 60vw;
 }
 
-#result-python, #result-ruby, #result-c, #result-js {
+#result-python, #result-ruby, #result-c, #result-js, #result-mix {
   display: none;
 }
 
@@ -16,7 +16,7 @@
   text-align: right;
 }
 
-.c {
+/* .c {
   background-color: blue;
 }
 
@@ -30,7 +30,7 @@
 
 .js {
   background-color: green;
-}
+} */
 
 .btn {
   display: inline;
