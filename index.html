@@ -8,46 +8,48 @@
     <title></title>
   </head>
   <body>
-    <form>
-      <div id="question1">All right, sit down. We're going to be here a minute. Would you like a drink?
-        Oh, yes, please. I'll take a...
-        <!-- would you like a drink?
-          beer - python
-          red wine - ruby
-          gin and tonic - c
-          pina colada - js -->
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="beer" checked>
-            Beer
-          </label>
+    <div class="container">
+      <form>
+        <div id="question1">
+          <p class="talk">All right, sit down. We're going to be here a minute. Would you like a drink?</p>
+          <p class="response">Oh, yes, please. I'll take a...</p>
+          <!-- would you like a drink?
+            beer - python
+            red wine - ruby
+            gin and tonic - c
+            pina colada - js -->
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="python" checked>
+              Beer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="ruby">
+              Red Wine
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="c">
+              Gin and Tonic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="js">
+              Pina Colada
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="wine">
-            Red Wine
-          </label>
+        <div id="final-answer">
+          <p class="response">Doc, what have I got? I have to know!!</p>
+          <br />
+          <button type="submit" class="btn" id="submit">Tell me!</button>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="g-n-t">
-            Gin and Tonic
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="pina-colada">
-            Pina Colada
-          </label>
-        </div>
-      </div>
-      <div id="final-answer">
-        <p class="response">Doc, what have I got? I have to know!!</p>
-        <br />
-        <button type="submit" class="btn" id="submit">Tell me!</button>
-      </div>
-    </form>
- 
+      </form>
+    </div>
   </body>
 </html>
 
