@@ -123,8 +123,19 @@ $(document).ready(function() {
     console.log("c: " + c)
     console.log("js: " + js)
     
-
-
+    $("#intro").hide();
+    $("#question1").hide();
+    $("#question2").hide();
+    $("#question3").hide();
+    $("#question4").hide();
+    $("#question5").hide();
+    $("#question6").hide();
+    $("#question7").hide();
+    $("#question8").hide();
+    $("#question9").hide();
+    $("#question10").hide();
+    $("#final-answer").hide();
+    
     if (python > c && python > ruby && python > js) {
       $("#result-python").show();
     } else if (c > python && c> ruby && c > js) {
