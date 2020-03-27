@@ -144,8 +144,8 @@ $(document).ready(function() {
       $("#result-ruby").show();
     } else if (js > python && js > c && js > ruby) {
       $("#result-js").show();
-    // } else if (python === ruby || python === c || python === js || ruby === c || ruby === js || js === c) {
-    //   $("result-mix").show();
+    } else if (python === ruby || python === c || python === js || ruby === c || ruby === js || js === c) {
+      $("#result-mix").show();
     }
 
   })
