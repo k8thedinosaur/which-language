@@ -17,8 +17,8 @@ body {
   display: none;
 }
 
-#final-answer {
-  text-align: right;
+.talk {
+  text-align: left;
 }
 
 .response {
@@ -26,31 +26,32 @@ body {
   text-align: right;
 }
 
-/* .c {
-  background-color: blue;
+.answer-c {
+  color: blue;
 }
 
-.python {
-  background-color: yellow;
+.answer-python {
+  color: yellow;
 }
 
-.ruby {
-  background-color: red;
+.answer-ruby {
+  color: red;
 }
 
-.js {
-  background-color: green;
-} */
+.answer-js {
+  color: green;
+}
 
 .btn {
   display: inline;
+  margin: auto;
 }
 
 .panel-body {
   opacity: 99%;
 }
 
-#intro {
+#intro, #result {
   font-size: 17px;
 }
 
