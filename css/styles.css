@@ -27,19 +27,19 @@ body {
 }
 
 .answer-c {
-  color: blue;
+  color: rgb(16, 15, 110);
 }
 
 .answer-python {
-  color: yellow;
+  color: rgb(222, 224, 54);
 }
 
 .answer-ruby {
-  color: red;
+  color: rgb(173, 22, 22);
 }
 
 .answer-js {
-  color: green;
+  color: rgb(23, 141, 49);
 }
 
 .btn {
@@ -53,6 +53,10 @@ body {
 
 #intro, #result {
   font-size: 17px;
+}
+
+#result {
+  margin-top: 40vh;
 }
 
 .bold {
