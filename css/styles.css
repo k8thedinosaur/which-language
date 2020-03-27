@@ -1,3 +1,7 @@
+#result-python, #result-ruby, #result-c, #result-js {
+  display: none;
+}
+
 #final-answer {
   float: right;
 }
@@ -6,3 +10,4 @@
   font-style: italic;
   float: right;
 }
+
