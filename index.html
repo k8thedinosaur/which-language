@@ -9,69 +9,120 @@
   </head>
   <body>
     <div class="container">
+      <div id="intro" class="well">
+        <p class="talk">You're running an important errand at midnight when a man in a trenchcoat and dark glasses approaches you in a shady back alley.</p>
+        <p class="talk">"I've got an offer you can't refuse," he says. "I'm going to ask you a series of questions to find out if you're my guy."</p>
+        <p class="response">You approach him cautiously, unsure of his motives. He quickly ushers you toward a side door you hadn't noticed.</p>
+        <p class="talk">"Please step into my office."</p>
+      </div>
+
       <form>
         <div id="question1">
-          <p class="talk">All right, sit down. We're going to be here a minute. Would you like a drink?</p>
-          <p class="response">Oh, yes, please. I'll take a...</p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="python">
-              Beer
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="ruby">
-              Red Wine
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="c">
-              Gin and Tonic
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1" value="js" checked>
-              Pina Colada
-            </label>
+          <div class="panel panel-default">
+            <div class="panel panel-heading">
+              <p class="talk">All right, sit down. We're going to be here a minute. Would you like a drink?</p>
+              <p class="response">Oh, yes, please. I'll take a...</p>
+            </div>
+            <div class="panel panel-body">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="c">
+                  Gin and Tonic
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="python">
+                  Beer
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="ruby">
+                  Red Wine
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="js">
+                  Pina Colada
+                </label>
+              </div>
+            </div>
           </div>
         </div>
 
         <div id="question2">
-          <p class="talk">You seem like a cool cat. What operating system are you on?</p>
-          <p class="response">I'm a cat?</p>
-          <!-- favorite os:
-          linux - python
-          mac - ruby
-          windows - C
-          I'm a cat - js -->
-          <div class="radio">
-            <label>
-              <input type="radio" name="question2" value="python">
-              Linux
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question2" value="ruby">
-              Mac
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question2" value="c">
-              Windows
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question2" value="js" checked>
-              ...I'm a cat
-            </label>
+          <div class="panel panel-default">
+            <div class="panel panel-heading">
+              <p class="talk">You seem like a cool cat. What operating system are you on?</p>
+              <p class="response">I'm a cat?</p>
+            </div>
+            <div class="panel panel-body">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="python">
+                  Linux
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="ruby">
+                  Mac
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="c">
+                  Windows
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="js">
+                  ...I'm a cat
+                </label>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div id="question3">
+          <div class="panel panel-default">
+            <div class="panel panel-heading">
+              <p class="talk">Let's get to know each other a bit. Which language would you most like to learn?</p>
+              <p class="response">(I feel like this might be a trick.)</p>
+            </div>
+            <div class="panel panel-body">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="c">
+                  Latin
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="js">
+                  Pig Latin
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="ruby">
+                  Spanish or French
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="python">
+                  English, but with a posh accent
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
 
 
         <div id="final-answer">
@@ -99,54 +150,52 @@ Ruby
 C#
 JavaScript
 
-
-Let's get to know each other a bit. Which language would you most like to learn? (I feel like this might be a trick.)
-english, but with a neat accent - python
-spanish or french - ruby
-latin - c
-pig latin - js
-
-prefer front end or back end:
+4 Do you prefer working on front end or the back end of a web application?
 front - js
 back - ruby
 both - python
 I'd rather make mobile apps - c
 
 
-I forgot to ask at the beginning -- how old are you?
+5 I forgot to ask at the beginning -- how old are you?
 (add languages based on their actual age)
-python - 1989
-js - 1995
-ruby - 1995
-c# - 2000
+pushing 30 - python - 1989
+around 25 - ruby - 1995
+Idk, I forgot - js - 1995
+my age has nothing to do wiht my aptitude - c# - 2000
 
-do you like your code:
+6 Interesting. You don't act your age. Anyway, what's your favorite animal?
+I liek turtles!!!1 - js
+sloths and snails - c
+scarab beetle - ruby
+snek - python
+
+7 Cool, cool. Hey, how do you like your code to look?
 simple/readable - python
 incomprehensible - C
 somewhere in betwen - ruby
 I want to be lost in the swirling depths of the deepest part of the ocean at all times - js
 
-how precise to you like to be when writing code:
+8 I'm starting to get an idea of what kind of person you are. Now, let me know, how precise to you like to be when writing code:
 pretty loose - python
 pretty precise - ruby
-quite precise - c
+quite precise indeed - c
 I'm literally jsut guessing all the time - js
 
-I'm going to ask you to choose an object out of this box.
+9 I'm going to ask you to choose an object out of this box.
 writhing ball of snakes - python
 interlocked hexagon puzzle - c
 cloth pouch full of gems - ruby
 tangled ball of string - js
 
 
-Cool. We're almost done. Where can I catch you when you're not writing code?
+10 Cool. We're almost done. Where can I catch you when you're not writing code?
 the coffeeshop or food co-op - python
 the library - c
 the art museum - ruby
 the 7-11 or skatepark - js
 
 
-favorite animal?
 
 
 

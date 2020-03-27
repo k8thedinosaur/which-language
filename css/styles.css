@@ -1,13 +1,18 @@
+.container {
+  margin:auto;
+  width: 60vw;
+}
+
 #result-python, #result-ruby, #result-c, #result-js {
   display: none;
 }
 
 #final-answer {
-  float: right;
+  text-align: right;
 }
 
 .response {
   font-style: italic;
-  float: right;
+  text-align: right;
 }
 
